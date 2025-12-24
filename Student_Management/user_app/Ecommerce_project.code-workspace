@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../Ecommerce_project"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"python-envs.defaultEnvManager": "ms-python.python:system"
+	}
+}

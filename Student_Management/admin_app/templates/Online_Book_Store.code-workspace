@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Online_Book_Store"
+		},
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"python-envs.defaultEnvManager": "ms-python.python:system"
+	}
+}

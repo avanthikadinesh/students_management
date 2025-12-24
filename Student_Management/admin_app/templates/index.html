@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+</head>
+<body>
+    <h1>TULIPS</h1>
+    <p>Tulips are popular, spring-blooming flowers known for their large, showy, cup-shaped blooms that come in nearly every color imaginable. They grow from bulbs planted in autumn, produce one or more thick bluish-green leaves at the base of the stem, and typically have six petals and six stamens. The flowers are part of the lily family and originated in Central Asia, becoming a major industry in the Netherlands.</p>
+    
+    {% block content %}
+    <img src="https://www.prettypetals.com/wp-content/uploads/2024/03/R-Website-1-8.png" alt="" width="500px" height="400px">
+    {% endblock %}
+    
+</body>
+</html>
